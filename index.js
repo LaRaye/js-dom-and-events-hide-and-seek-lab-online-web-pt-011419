@@ -19,7 +19,7 @@ function deepestChild() {
   let child = "";
   
   if (parent.hasChildNodes()) {
-    child = parent.childNodes;
+    child = parent.childNodes[0];
     parent = child;
   }
   
